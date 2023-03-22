@@ -79,7 +79,7 @@ int main(void)
             printf("1 Foreign Currency = %.5f Local Currencies\n1 Local Currency = %.5f Foreign Currencies\n\n%.2f Foreign Currencies = %.2f Local Currencies\n\n" ,rate,1.0f/rate,target_money,local_currency);
             break;
         case 2:
-            printf("Enter number of RMB:");
+            printf("Enter number of Local Currency:");
             scanf("%f",&local_currency);
             target_money = local_currency/rate;
             printf("1 Foreign Currency = %.5f Local Currencies\n1 Local Currency = %.5f Foreign Currencies\n\n%.2f Local Currencies = %.2f Foreign Currencies\n\n" ,rate,1.0f/rate,local_currency,target_money);
